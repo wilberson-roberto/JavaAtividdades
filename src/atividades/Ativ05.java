@@ -1,6 +1,5 @@
 package atividades;
 
-import java.lang.reflect.Executable;
 import java.util.Scanner;
 
 public class Ativ05 {
@@ -30,6 +29,8 @@ public class Ativ05 {
 		} else {
 			System.out.printf("Voce usou %d minutos e ultrapassou a franquia, tera de pagar %.2f R$%n", minutos, excedido);
 		}
+		
+		entrada.close();
 
 	}
 
